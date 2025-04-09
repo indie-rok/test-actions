@@ -36,6 +36,7 @@ function writeSummary(results) {
 }
 
 function main() {
+  const root = process.argv[2];
   const mdFiles = findMarkdownFiles(root);
 
   const results = mdFiles.map((file) => {
