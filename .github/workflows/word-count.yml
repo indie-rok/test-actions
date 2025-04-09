@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4 #v4
+        uses: actions/checkout@85e6279cec87321a52edac9c87bce653a07cf6c2 #v4
         with:
           persist-credentials: false
 
@@ -20,7 +20,6 @@ jobs:
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 #v4.03
         with:
           node-version: '20'
-          persist-cretentials: false
 
       - name: Run word count script
         run: node scripts/count-words.js courses
