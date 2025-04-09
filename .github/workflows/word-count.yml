@@ -22,6 +22,6 @@ jobs:
           node-version: '20'
 
       - name: Run word count script
-        run: node scripts/count-words.js courses
+        run: node scripts/word-count/main.js courses
         
 
