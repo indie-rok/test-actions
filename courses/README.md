@@ -4,7 +4,7 @@ In the last few years, GitHub Actions have become a productivity hack for DevOps
 
 ![2 yml workflows](../imgs/compare.png)
 
-Let's compare these two GitHub Actions, which at first sight, perform the same action (count words in the repo with a python script) but with a few key differences, providing more robust security.
+Let's compare these two GitHub Actions, which at first sight, perform the **same action** (count words in the repo with a node script) but with a few key differences, providing more robust security.
 
 The security strategies used in this workflow are:
 
